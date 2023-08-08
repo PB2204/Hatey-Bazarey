@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+.image__grid {
+    --gap: 16px;
+    --num-col: 4;
+    --row-height: 280px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-col), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+
+
+.image__grid > div > img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    border-radius: 20px;
+    z-index: -10;
+}
+
+.image__grid_col__2 {
+    grid-column: span 2;
+}
+.image__grid_row__2 {
+    grid-row: span 2;
+}
+.box,.boxs {
+    position: relative;
+}
+
+.box > h3 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: rgb(72, 68, 68);
+    font-family: 'Shadows Into Light', cursive;
+}
+.boxs > h3 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(72, 68, 68);
+    font-family: 'Shadows Into Light', cursive;
+}
+.box > h3 > p {
+    font-size: 15rem;
+    margin-left: 25rem;
+    margin-top: -4.89rem;
+}
+.box > p {
+    position: absolute;
+    top: 15rem;
+    left: 1rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: rgb(72, 68, 68);
+}
+
+.boxs > p {
+    position: absolute;
+    top: 7rem;
+    left: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(72, 68, 68);
+}
+.box > .cardIcon {
+    position: absolute;
+    top: 32rem;
+    left: 42rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(51, 50, 50);
+    cursor: pointer;
+}
+.boxs > .cardIcons {
+    position: absolute;
+    top: 15rem;
+    left: 20rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(51, 50, 50);
+    cursor: pointer;
+}
+.box > .cardIcon:hover,
+.boxs > .cardIcons:hover {
+    color: #000;
+}
+
+ .boxs > .boys {
+    left: 13.5rem;
+    
+}
+
+.boxs > .phone {
+    color: rgb(54, 53, 53);
+    left: 5rem;
+    top: -.85rem;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .image__grid {
+        --num-col: 2;
+        --row-height: 200px
+    }
+
+    .box > h3 { 
+        font-size: 2.5rem;
+    }
+    .box > h3 > p {
+        font-size: 11rem;
+        margin-left: 16rem;
+        margin-top: -5rem;
+    }
+    .box > .cardIcon {
+        top: 22rem;
+        left: 26rem;
+        font-size: 2rem;
+    }
+    .box > p {
+        position: absolute;
+        top: 12rem;
+        left: 1rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: rgb(72, 68, 68);
+    }
+}
+  
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  } 
+
+  .view__product_bose {
+    text-decoration: none;
+    margin-top: -2rem;
+
+    position: absolute;
+    top: 32rem;
+    left: 38rem;
+    color: rgb(51, 50, 50);
+  }
+  .view__product_bose:hover {
+    color: rgb(51, 50, 50);
+  }

@@ -1,0 +1,31 @@
+{
+  "name": "hatey-bazarey",
+  "version": "1.0.0",
+  "description": "E-commerce application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node Backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon Backend/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon Backend/server",
+    "seeder": "node Backend/utils/seeder.js"
+  },
+  "author": "Pabitra Banerjee",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cloudinary": "^1.33.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4",
+    "nodemailer": "^6.4.16",
+    "stripe": "^8.128.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
