@@ -21,7 +21,7 @@
     "express-fileupload": "^1.4.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.8.4",
-    "nodemailer": "^6.4.16",
+    "nodemailer": "^6.9.5",
     "stripe": "^8.128.0",
     "validator": "^13.7.0"
   },
