@@ -17,13 +17,13 @@
     "cloudinary": "^1.41.0",
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.0.3",
-    "express": "^4.21.1",
+    "express": "^4.22.0",
     "express-fileupload": "^1.4.3",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.12.3",
-    "nodemailer": "^6.9.7",
+    "nodemailer": "^7.0.11",
     "stripe": "^8.128.0",
-    "validator": "^13.7.0"
+    "validator": "^13.15.22"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
